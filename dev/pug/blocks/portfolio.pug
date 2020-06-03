@@ -6,16 +6,16 @@ mixin portfolio()
       nav.portfolio__filter
         ul
           li.portfolio__filter-btn.is-selected.js-filter(data-filter='all') All
-          li.portfolio__filter-btn.js-filter(data-filter='web') Web design
-          li.portfolio__filter-btn.js-filter(data-filter='graphic') Graphic design
-          li.portfolio__filter-btn.js-filter(data-filter='flat') Flat design
+          li.portfolio__filter-btn.js-filter(data-filter='web') Web development
+          li.portfolio__filter-btn.js-filter(data-filter='packages') Packages
+          li.portfolio__filter-btn.js-filter(data-filter='mobile') mobile development
       ul.portfolio__content
-        li.portfolio__item.js-item(data-cat='all flat')
+        li.portfolio__item.js-item(data-cat='all mobile')
           a(href='#')
             img.portfolio__item-img.js-lazy(src='static/images/port1.png', alt='')
             .portfolio__item-caption
               span.portfolio__item-title Example title
-              span.portfolio__item-cat Flat design
+              span.portfolio__item-cat mobile development
         li.portfolio__item.js-item(data-cat='all web')
           a(href='#')
             img.portfolio__item-img.js-lazy(src='static/images/port2.png', alt='')
@@ -27,19 +27,19 @@ mixin portfolio()
             img.portfolio__item-img.js-lazy(src='static/images/port3.png', alt='')
             .portfolio__item-caption
               span.portfolio__item-title Example title
-              span.portfolio__item-cat Graphic design
-        li.portfolio__item.js-item(data-cat='all graphic web')
+              span.portfolio__item-cat Packages
+        li.portfolio__item.js-item(data-cat='all Packages')
           a(href='#')
             img.portfolio__item-img.js-lazy(src='static/images/port4.png', alt='')
             .portfolio__item-caption
               span.portfolio__item-title Example title
-              span.portfolio__item-cat Graphic design
+              span.portfolio__item-cat Packages
         li.portfolio__item.js-item(data-cat='all graphic flat')
           a(href='#')
             img.portfolio__item-img.js-lazy(src='static/images/port6.png', alt='')
             .portfolio__item-caption
               span.portfolio__item-title Example title
-              span.portfolio__item-cat Flat design
+              span.portfolio__item-cat mobile development
         li.portfolio__item.js-item(data-cat='all web')
           a(href='#')
             img.portfolio__item-img.js-lazy(src='static/images/port5.png', alt='')
@@ -51,7 +51,7 @@ mixin portfolio()
             img.portfolio__item-img.js-lazy(src='static/images/port1.png', alt='')
             .portfolio__item-caption
               span.portfolio__item-title Example title
-              span.portfolio__item-cat Flat design
+              span.portfolio__item-cat mobile development
         li.portfolio__item.js-item(data-cat='all web')
           a(href='#')
             img.portfolio__item-img.js-lazy(src='static/images/port2.png', alt='')

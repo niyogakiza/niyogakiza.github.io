@@ -1,5 +1,7 @@
 {
-  "name": "DIGIT",
+  "dependencies": {
+    "graceful-fs": "4.2.4"
+  },
   "description": "Collection of personal projects that includes websites, packages and mobile application",
   "devDependencies": {
     "@babel/core": "^7.3.3",
@@ -33,5 +35,5 @@
     "run-sequence": "^2.2.1",
     "vinyl-paths": "^2.1.0"
   },
-  "dependencies": {}
+  "name": "DIGIT"
 }
