@@ -37,6 +37,7 @@
   },
   "name": "DIGIT",
   "scripts": {
+    "gulp": "gulp",
     "start": "gulp dev",
     "build": "gulp build",
     "rebuild": "gulp rebuild",
