@@ -36,7 +36,7 @@
     "vinyl-paths": "^2.1.0"
   },
   "name": "DIGIT",
-  "script": {
+  "scripts": {
     "dev": "gulp dev",
     "build": "gulp build",
     "rebuild": "gulp rebuild",
