@@ -65,6 +65,7 @@ gulp.task('rebuild', function() {
 // gulp.task('server', ['browserSync:server']);
 gulp.task('browser-sync', ['sass'], function() {
   bs.init({
+    open: false,
     server: {
       baseDir: "./"
     }
