@@ -1,5 +1,5 @@
 /* todo it runs on node 11 */
-
+var bs = require('browser-sync').create();
 // Include gulp
 var gulp = require('gulp'),
     runSequence = require('run-sequence');
@@ -63,3 +63,10 @@ gulp.task('rebuild', function() {
 
 // Run server without watching for changes
 // gulp.task('server', ['browserSync:server']);
+gulp.task('browser-sync', ['sass'], function() {
+  bs.init({
+    server: {
+      baseDir: "./"
+    }
+  });
+});
