@@ -41,5 +41,8 @@
     "build": "gulp build",
     "rebuild": "gulp rebuild",
     "cleanup": "gulp cleanup"
+  },
+  "engines" : {
+    "node" : "v11.15.0"
   }
 }
